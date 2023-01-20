@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+    </head>
+    <body>
+        <div class="div-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar-items"><a class="a-navbar-items" href="/Ubuntu/home/justin/aa-projects/aa-first-site/page1.html">Home</a></li>
+                <li class="li-navbar-items"><a class="a-navbar-items" href="/Ubuntu/home/justin/aa-projects/aa-first-site/page2.html">About Me</a></li>
+                <li class="li-navbar-items"><a class="a-navbar-items" href="/Ubuntu/home/justin/aa-projects/aa-first-site/page3.html">Find Me</a></li>
+                <li class="li-navbar-items"><a class="a-navbar-items navbar-item-selected" href="/Ubuntu/home/justin/aa-projects/aa-first-site/page4.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="titlepicture">
+            <h1 class="welcome-title">📨 Contact Me!</h1>
+            <p class="welcome-description">This page will allow you to send me an email through this form.</p>
+        </div><br>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+            <div class="firstlastemail">
+                <input type="text" id="firstName" name="first_name" class="firstlastemailinputs" placeholder="FIRST NAME">
+                <input type="text" id="lastName" name="last_name" class="firstlastemailinputs" placeholder="LAST NAME">
+            </div><br>
+
+            <div class="comments">
+                <textarea id="comments" name="comments" placeholder="ENTER MESSAGE HERE"></textarea>
+            </div><br>
+
+            <div class="checkboxes">
+                <input type="checkbox" id="signup" name="signup" value="Signup" >
+                <label for="signup">Sign up for news letter</label>
+            </div><br>
+
+            <div class="submit">
+                <button type="submit" class="submitbutton">Submit</button>
+            </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
